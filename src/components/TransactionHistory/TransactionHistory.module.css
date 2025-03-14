@@ -1,0 +1,46 @@
+
+/* Table styling */
+.table {
+  margin-top: 24px;
+  border-radius: 10px;
+  border-collapse: collapse;
+  width: 100%;
+  font-family: Arial, sans-serif;
+  background: #fff;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Table header */
+.table thead {
+  background: #4CAF50;
+  color: white;
+  text-transform: uppercase;
+}
+
+.table th, .table td {
+  padding: 12px;
+  text-align: left;
+}
+
+.table th {
+  font-weight: bold;
+}
+
+/* Table rows */
+.table tbody tr {
+  border-bottom: 1px solid #ddd;
+}
+
+.table tbody tr:nth-child(even) {
+  background: #f9f9f9;
+}
+
+.table tbody tr:hover {
+  background: #f1f1f1;
+}
+
+/* Last row border fix */
+.table tbody tr:last-child {
+  border-bottom: none;
+}

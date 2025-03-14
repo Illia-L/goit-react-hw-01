@@ -1,0 +1,35 @@
+/* Friend Card */
+.card {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+}
+
+/* Friend Avatar */
+.image {
+  border-radius: 50%;
+  border: 2px solid #ddd;
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+}
+
+/* Friend Name */
+.name {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Friend Status */
+.status {
+  margin: 0;
+  font-size: 12px;
+  color: #f44336;
+}
+
+.status.online {
+  color: #4caf50;
+}
