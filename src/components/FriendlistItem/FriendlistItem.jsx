@@ -1,5 +1,5 @@
 import clsx from 'clsx';
-import css from './jFriendListItem.module.css';
+import css from './FriendListItem.module.css';
 
 function FriendlistItem({ friend }) {
   return (
