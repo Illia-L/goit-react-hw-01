@@ -1,7 +1,7 @@
 import clsx from 'clsx';
 import css from './FriendListItem.module.css';
 
-function FriendlistItem({ friend }) {
+function FriendListItem({ friend }) {
   return (
     <div className={css.card}>
       <img
@@ -18,4 +18,4 @@ function FriendlistItem({ friend }) {
   );
 }
 
-export default FriendlistItem;
+export default FriendListItem;

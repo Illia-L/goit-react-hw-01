@@ -1,4 +1,5 @@
-import FriendlistItem from '../FriendListItem/FriendListItem';
+
+import FriendListItem from '../FriendlistItem/FriendlistItem';
 import css from './FriendList.module.css';
 
 function FriendList({ friends }) {
@@ -9,7 +10,7 @@ function FriendList({ friends }) {
           className={css.item}
           key={friend.id}
         >
-          <FriendlistItem friend={friend} />
+          <FriendListItem friend={friend} />
         </li>
       ))}
     </ul>
